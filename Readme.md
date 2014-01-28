@@ -1,6 +1,32 @@
- [![Build Status](https://secure.travis-ci.org/visionmedia/mocha.png)](http://travis-ci.org/visionmedia/mocha)
+# co-mocha
 
-  [![Mocha test framework](http://f.cl.ly/items/3l1k0n2A1U3M1I1L210p/Screen%20Shot%202012-02-24%20at%202.21.43%20PM.png)](http://visionmedia.github.io/mocha)
+  A slightly modified version of mocha that uses [co](https://github.com/visionmedia/co) to provide generator function support.
+
+```JavaScript
+  describe("New customer", function() {
+    var business;
+    var customer;
+
+    before(function*() {
+      yield setup();
+      business = yield Account.create("FooBar Inc");
+      customer = yield business.addCustomer("Mr. Baz");
+    });
+
+    it("should be the only customer", function*() {
+      var count = yield Customer.count({ businessID: business.id });
+      assert.equal(count, 1);
+    });
+
+    after(function*() {
+      yield teardown();
+    });
+  });
+```
+
+  Credits: https://labnotes.org/yield-to-the-test-using-mocha-with-es6-generators/
+
+## Description
 
   Mocha is a simple, flexible, fun JavaScript test framework for node.js and the browser. For more information view the [documentation](http://visionmedia.github.io/mocha).
 
