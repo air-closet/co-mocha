@@ -24,6 +24,12 @@
   });
 ```
 
+## Installation
+
+```
+  npm install mocha-co
+```
+
   Credits: https://labnotes.org/yield-to-the-test-using-mocha-with-es6-generators/
 
 ## Description
