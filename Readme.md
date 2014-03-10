@@ -1,6 +1,6 @@
-# co-mocha
+______
 
-  A slightly modified version of mocha that uses [co](https://github.com/visionmedia/co) to provide generator function support.
+A slightly modified version of mocha that uses [co](https://github.com/visionmedia/co) to provide generator function support.
 
 ```JavaScript
   describe("New customer", function() {
@@ -44,7 +44,11 @@ and then install mocha-co
 
 Then use it as usual.
 
-  Credits: https://labnotes.org/yield-to-the-test-using-mocha-with-es6-generators/
+Original idea: https://labnotes.org/yield-to-the-test-using-mocha-with-es6-generators/
+
+Upstream README below
+
+______
 
 ## Description
 
