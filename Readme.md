@@ -30,6 +30,20 @@
   npm install mocha-co
 ```
 
+If you plan to install it globally, please be sure to uninstall any existing mocha aready installed with
+
+```
+  sudo npm uninstall -g mocha
+```
+
+and then install mocha-co
+
+```
+  sudo npm install -g mocha-co
+```
+
+Then use it as usual.
+
   Credits: https://labnotes.org/yield-to-the-test-using-mocha-with-es6-generators/
 
 ## Description
