@@ -1,6 +1,6 @@
 {
   "name": "mocha-co",
-  "version": "1.17.1",
+  "version": "1.17.1-co.1",
   "description": "simple, flexible, fun test framework",
   "keywords": [
     "mocha",
@@ -9,10 +9,10 @@
     "tdd",
     "tap"
   ],
-  "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "author": "Ilkka Oksanen <iao@iki.fi>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/visionmedia/mocha.git"
+    "url": "git://github.com/ilkkao/co-mocha.git"
   },
   "main": "./index",
   "bin": {
