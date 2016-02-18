@@ -52,7 +52,7 @@ ______
 
 ## Description
 
-  Mocha is a simple, flexible, fun JavaScript test framework for node.js and the browser. For more information view the [documentation](http://visionmedia.github.io/mocha).
+  Mocha is a simple, flexible, fun JavaScript test framework for node.js and the browser. For more information view the [documentation](http://mochajs.org/).
 
 ## Contributors
 
